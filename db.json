@@ -1,0 +1,27 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Michael Kolawole"
+        }
+    ],
+
+    "timecards": [
+        {
+            "id": 1,
+            "hours": 4,
+            "project": "Google",
+            "date": "2019-07-01",
+            "startTime": "09:00",
+            "endTime": "17:00"
+        },
+        {
+            "id": 2,
+            "hours": 3,
+            "project": "Facebook",
+            "date": "2019-07-01",
+            "startTime": "11:00",
+            "endTime": "16:00"
+        }
+    ]
+}
