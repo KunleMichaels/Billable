@@ -1,27 +1,42 @@
 {
-    "employees": [
-        {
-            "id": 1,
-            "name": "Michael Kolawole"
-        }
-    ],
-
-    "timecards": [
-        {
-            "id": 1,
-            "hours": 4,
-            "project": "Google",
-            "date": "2019-07-01",
-            "startTime": "09:00",
-            "endTime": "17:00"
-        },
-        {
-            "id": 2,
-            "hours": 3,
-            "project": "Facebook",
-            "date": "2019-07-01",
-            "startTime": "11:00",
-            "endTime": "16:00"
-        }
-    ]
+  "employees": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "password"
+    },
+    {
+      "id": 2,
+      "name": "Michael Kolawole",
+      "email": "kunlemichaels4@gmail.com",
+      "password": "Password12"
+    }
+  ],
+  "timecards": [
+    {
+      "id": 1,
+      "hours": 4,
+      "project": "Google",
+      "date": "2019-07-01",
+      "startTime": "09:00",
+      "endTime": "17:00"
+    },
+    {
+      "id": 2,
+      "hours": 3,
+      "project": "Facebook",
+      "date": "2019-07-01",
+      "startTime": "11:00",
+      "endTime": "16:00"
+    },
+    {
+      "project": "Apple",
+      "hours": "300",
+      "date": "2019-08-06",
+      "startTime": "07:00",
+      "endTime": "15:00",
+      "id": 3
+    }
+  ]
 }
