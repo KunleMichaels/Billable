@@ -38,9 +38,8 @@ To Start the Application in production mode run
 2. yarn start:prod
 3. cd client && yarn build:prod  (optional: to create a build file)
 
-After step 2 the application should be live on http://localhost:3000
 
-After following the steps above the server should be live on localhost port 5000 and the client on loca
+After following the steps above the server should be live on http://localhost:3000 and the client on http://localhost:3000
 
 To run the tests simply run
 
