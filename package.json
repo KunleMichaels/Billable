@@ -7,8 +7,10 @@
   "license": "MIT",
   "scripts": {
     "start": "concurrently \"yarn start:server\" \"yarn start:client\"",
+    "start:prod": "concurrently \"yarn start:server\" \"yarn start:client:prod\"",
     "start:server": "json-server db.json --port 5000",
     "start:client": "cd client && yarn start",
+    "start:client:prod": "cd client && yarn start:prod",
     "test": "cd client && yarn run test"
   },
   "dependencies": {
